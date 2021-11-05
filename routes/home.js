@@ -7,12 +7,12 @@ const filmes = require('../controller/filmesController')
 
 router.get('/', (req, res) =>{
     categorias.create({
-        titulo: 'Ação'
+        titulo: 'Acao'
     }),
     filmes.create({
         titulo: 'Os vingadores',
         descricao: 'Esse filme é uma merda',
-        idCategoria: categorias.id
+        idCategoria: 2 
     })
     res.render('home')
 })
