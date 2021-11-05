@@ -1,0 +1,11 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "recriando interface netflix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabio Silva",
+  "license": "ISC"
+}

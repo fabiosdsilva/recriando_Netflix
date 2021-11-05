@@ -1,0 +1,110 @@
+:root{
+    --vermelho: red;
+    --preto: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    text-transform: uppercase;
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header .container nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    color: #AAA;
+
+    margin-right: 10px;
+    
+}
+
+header .container nav a:hover{
+    color: white;
+}
+
+/* EDITANDO FILME PRINCIPAL */
+
+main .filme-principal{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/mr-robot-banner-principal.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /*Deixando os elementos em colunas*/
+    justify-content: center; /*Deixando os elementos centralizados na vertical*/
+    align-items: flex-start;
+}
+
+main .filme-principal .container .titulo{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+main .filme-principal .container .descricao{
+    font-size: 18px;
+    width: 800px;
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+.button{
+    text-transform: uppercase;
+
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    border: none;
+
+    padding: 15px 30px;
+
+    margin-top: 40px;
+    margin-right: 10px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    transition: .3s ease all;
+
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+/* ALINHANDO TODO CONTEÚDO DA PÁGINA  */
+
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+/* SESSÃO FILMES */
