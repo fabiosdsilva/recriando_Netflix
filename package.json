@@ -4,8 +4,24 @@
   "description": "recriando interface netflix",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "Fabio Silva",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiosilvamunis/recriando_Netflix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabiosilvamunis/recriando_Netflix/issues"
+  },
+  "homepage": "https://github.com/fabiosilvamunis/recriando_Netflix#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "nodemon": "^2.0.14",
+    "sequelize": "^6.9.0"
+  }
 }
