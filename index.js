@@ -2,6 +2,8 @@ const exp = require('constants')
 const express = require('express')
 const app = express()
 
+const home = require('./routes/home')
+
 //Habilitando todos os recursos do Express
 app.use(express.urlencoded({extended: true}))
 
